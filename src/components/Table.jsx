@@ -12,7 +12,7 @@ export default function Table({ rows, deleteRow }) {
                             <th>Title or reason</th>
                             <th>Amount</th>
                             <th>Date of creation</th>
-                            <th className='last-child' style={{'color': 'hsl(0, 69%, 56%)'}}>Delete</th>
+                            <th className='last-child title-last-child' style={{'color': 'hsl(0, 69%, 56%)'}}>Delete</th>
                         </tr>
                     </thead>
                     <tbody>

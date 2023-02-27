@@ -173,7 +173,11 @@
 
 @media (min-width: 1080px) {
     .last-child {
-    margin-left: 10rem    
+        margin-left: 10rem;
+    }
+
+    .title-last-child {
+        padding-left: 1rem;
     }
 
 .form-inputs {
