@@ -1,0 +1,25 @@
+.main-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+
+    color: var(--clr-black);
+}
+
+.sub-title {
+    font-size: 1.125rem;
+    display: inline-block;
+    max-width: 30ch;
+
+    color: var(--clr-gray);
+}
+
+@media (min-width: 768px) {
+    .main-title {
+        font-size: 2rem;
+    }
+
+    .sub-title {
+        max-width: 60ch;
+    }
+}

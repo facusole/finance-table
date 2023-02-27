@@ -1,0 +1,49 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    border-bottom: 1px solid var(--clr-light-gray);
+}
+
+.nav-container::-webkit-scrollbar {
+    display: none;
+}
+
+.tab-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--clr-gray);
+    font-size: 1rem;
+}
+
+.link-active {
+    color: var(--clr-black);
+    border-bottom: 2px solid blue;
+}
+
+:is(.delete-btn, .trash-icon) {
+    font-size: 1rem;
+    color: var(--clr-red);
+}
+
+.delete-btn {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.trash-icon {
+    display: inline;
+}
+
+@media (min-width: 768px) {
+    .nav-link {
+        font-size: 1.25rem;    
+    }
+}
