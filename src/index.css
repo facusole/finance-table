@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+/* @font-face {
   font-family: 'Gilroy';
   src: url(../assets/gilroy/Gilroy-SemiBold.ttf) format(truetype);
   font-weight: 600;
@@ -8,7 +8,7 @@
   font-family: 'Gilroy';
   src: url(../assets/gilroy/Gilroy-Medium.ttf) format(truetype);
   font-weight: 500;
-}
+} */
 
 :root {
   --clr-white: hsl(100, 100%, 100%);
@@ -59,7 +59,7 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ------------------------------------------ General --------------------------------------------- */
 
 body {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 button:hover {
